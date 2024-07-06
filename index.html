@@ -130,14 +130,153 @@
 
             </section>
 
+            <!-- info section start here -->
+            <section class="mt-[60px] mx-5 lg:mx-9 bg-[#FFFFFF]  p-2">
+
+                <div>
+                    <div
+                        class="flex gap-5">
+                        <div class="pt-5 h-screen grid-cols-1  sidenav">
+
+                            <ul class="space-y-5 p-2">
+                                <li
+                                    class="bg-[#2042B6] text-white text-xl
+                                    p-2 rounded-xl flex justify-between
+                                    ">
+                                    <a>The Index</a>
+                                    <span>-</span>
+                                </li>
+                                <li class="flex justify-between text-xl">
+                                    <a>The Index
+                                        Tab Two</a>
+                                    <span>+</span>
+
+                                </li>
+                                <li class="flex justify-between text-xl">
+                                    <a>The Index Tab Three </a>
+                                    <span>+</span>
+                                </li>
+                                <li class="flex justify-between text-xl">
+                                    <a>The Index Tab Four</a>
+                                    <span>+</span>
+                                </li>
+                                <li class="flex justify-between text-xl">
+                                    <a>The Index Tab Five</a>
+                                    <span>+</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-5 col-span-3 px-5 space-y-10">
+                            <div class="flex gap-3">
+                                <img src="/public/Images/Union.png" alt>
+                                <h2 class="text-3xl">The WPPOOL Index</h2>
+                            </div>
+
+                            <div class="flex justify-between gap-5">
+                                <div
+                                    class="well flex gap-3  justify-between">
+                                    <h4 class="text-[#FC714D] text-5xl">
+                                        +66.2%</h4>
+                                    <p
+                                        class="pr-2 border-r-4 text-lg border-[#FC714D]">WPPOOL
+                                        <br> Index</p>
+                                </div>
+
+                                <div class>
+                                    <div
+                                        class="well flex gap-3 justify-between border-none">
+                                        <h4 class="text-[#615DE3] text-5xl">
+                                            +26.6%</h4>
+                                        <p
+                                            class="pr-2 border-r-4 text-lg border-[#615DE3]">Goolge
+                                            <br> Index</p>
+                                    </div>
+                                </div>
+
+                                <div class>
+                                    <div
+                                        class="well flex gap-3 justify-between border-none">
+                                        <h4 class="text-[#7CA63A] text-5xl">
+                                            +34.1%</h4>
+                                        <p
+                                            class="pr-2 border-r-4 text-lg border-[#7CA63A]">Microsoft
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="  ">
+                                    <div
+                                        class="well flex gap-3 justify-between border-none">
+                                        <h4 class="text-[#6F34A1] text-5xl">
+                                            +17% </h4>
+                                        <p
+                                            class="pr-2 border-r-4 text-lg border-[#6F34A1]">Twitter
+                                            <br> Index</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div
+                                class="flex justify-between   gap-x-4">
+                                <div class="flex justify-between gap-x-4">
+                                    <div>
+                                        <select
+                                            class="bg-[#2042B6] py-2 px-3 rounded-full font-poppins text-white pr-28"
+                                            name
+                                            id>
+                                            <option>Sectors</option>
+                                            <option>Sectors</option>
+                                            <option>Sectors</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <select
+                                            class="bg-[#2042B6]  py-2 px-3 rounded-full font-poppins text-white pr-20"
+                                            name
+                                            id>
+                                            <option>Types of IPO</option>
+                                            <option>Types of IPO</option>
+                                            <option>Types of IPO</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <ul
+                                        class="flex items-center text-[#2042B6] font-poppins bg-[#EFF3F6] rounded-full">
+                                        <li class="px-4 py-2">1Y</li>
+                                        <li class="px-4 py-2">YTD</li>
+                                        <li
+                                            class="px-4 py-2 text-white bg-primary rounded-full">6M</li>
+                                        <li class="px-4 py-2">1M</li>
+                                        <li class="px-4 py-2">1W</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- chart -->
+                            <div class="chart-container ">
+                                <canvas id="lineChart"
+                                    height="100px">
+                                </canvas>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </main>
 
         <!-- Footer part -->
         <footer>
 
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
         <script src="/src/Components/js/main.js"></script>
+        <script src="/src/Components/js/chart.js"></script>
 
     </body>
 </html>
