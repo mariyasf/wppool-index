@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>WPPOOL</title>
+        <link rel="icon" href="/public/icon.svg" type="image/svg" />
 
         <link href="./output.css" rel="stylesheet">
         <link
@@ -13,12 +14,11 @@
         <link rel="stylesheet" href="/src/Components/Style/style.css">
 
     </head>
-    <body>
+    <body class="bg-[#F3F3F3]">
         <!-- Header Part -->
-        <head>
-
-            <div class="navbar sticky
-             max-w-[1276px] mx-auto">
+        <header class="sticky top-0 z-50
+         bg-transparent px-5 lg:px-9 shadow-md    ">
+            <div class="navbar py-5">
                 <div class="flex-1">
                     <img src="/public/Images/logo.svg" alt="logo">
                 </div>
@@ -67,11 +67,63 @@
                     </div>
                 </div>
             </div>
-
-        </head>
+        </header>
 
         <!-- main part -->
         <main>
+
+            <section
+                class="banner-bg pb-11 px-5 lg:px-9  -mt-[89px] bg-[#2042B6] 
+                h-screen flex flex-col-reverse lg:flex-row justify-between
+                items-center lg:items-end gap-6">
+                <div class="banner_side text-white space-y-[50px]">
+                    <div>
+                        <h1>60</h1>
+                        <span>Companies</span>
+                    </div>
+                    <div>
+                        <h1>$100B</h1>
+                        <span>Market cap</span>
+                    </div>
+                    <div>
+                        <h1>303x</h1>
+                        <span>Revenue multiple</span>
+                    </div>
+                    <div>
+                        <h1>60%</h1>
+                        <span>LTM avg revenue growth rate</span>
+                    </div>
+                </div>
+                <div class="my-auto">
+
+                    <img
+                        class="absolute mx-auto lg:top-[10%] lg:left-[30%]"
+                        src="/public/Images/rectangle.png"
+                        alt="rectangular" />
+
+                    <div class="text-white pt-20 relative 
+                    z-10 text-center space-y-5">
+                        <h1
+                            class="text-4xl font-bold lg:text-[78px] font-serif">
+                            The WPPOOL Index
+                        </h1>
+                        <p class="text-[21px] max-w-[750px] font-[350]">
+                            Monitor the performance of emerging, publicly
+                            traded, financial
+                            technology companies
+                        </p>
+                    </div>
+                </div>
+                <div class="hidden lg:block  ">
+                    <button class="btn btn-circle ">
+                        <img src="/public/Images/arrow_downward_alt.png" alt>
+
+                    </button>
+                </div>
+
+            </section>
+
+             
 
         </main>
 
