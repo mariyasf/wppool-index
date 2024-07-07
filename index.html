@@ -18,7 +18,7 @@
         <!-- Header Part -->
 
         <header>
-            <nav class="all-container  ">
+            <nav class="container">
                 <div
                     class="nav-container nav-shadow nav-transition
                  ">
@@ -32,9 +32,13 @@
 
                     <div class="flex gap-5 items-center">
                         <button
-                            class="navbar-btn-share">
+                            class="navbar-btn-share share-white ">
                             <img src="/public/Images/icons/share.svg" alt>
                         </button>
+                        <!-- <button
+                            class="navbar-btn-share share-black">
+                            <img src="/public/Images/icons/share.svg" alt>
+                        </button> -->
 
                         <button
                             class="navbar-btn-download nav-transition  
@@ -47,11 +51,23 @@
                             <div
                                 class="navbar-drop-btn">
 
-                                <button class="info_menu">
+                                <button class="info_menu info-white">
 
                                     <img
                                         class="info"
                                         src="./public//Images/icons/info.svg"
+                                        alt>
+
+                                    <img
+                                        class="cross"
+                                        src="./public//Images/icons/cross.svg"
+                                        alt>
+
+                                </button>
+                                <button class="info_menu info-black">
+                                    <img
+                                        class="info"
+                                        src="./public//Images/icons/menu.png"
                                         alt>
                                     <img
                                         class="cross"
@@ -59,6 +75,7 @@
                                         alt>
 
                                 </button>
+
                             </div>
 
                             <ul
@@ -81,7 +98,7 @@
             </nav>
 
             <section
-                class="banner-container all-container">
+                class="banner-container">
                 <div class="counter-contant">
                     <div class="counter-iteam">
                         <h1 class="counter text-2xl lg:text-5xl">60</h1>
@@ -149,14 +166,16 @@
             <!-- Banner -->
 
             <!-- The WPPOOL Index-->
-            <section class="mt-[60px] border-2 bg-[#FFFFFF]">
+            <section
+                class="max-w-[1440px] mx-auto mt-[60px] bg-[#FFFFFF]">
 
-                <div class="py-10  px-5 lg:px-9">
+                <div class="py-10  lg:px-5">
                     <div
-                        class="flex gap-5">
-                        <div class="pt-5 h-screen    sidenav">
+                        class="flex flex-col lg:flex-row gap-5">
+                        <div class="sidenav">
 
-                            <ul class="space-y-5 p-2">
+                            <ul
+                                class="grid grid-cols-3 lg:grid-cols-1 gap-5 p-2">
                                 <li
                                     class="bg-[#2042B6] text-white text-xl
                                     p-2 rounded-xl flex justify-between
@@ -185,29 +204,31 @@
                             </ul>
                         </div>
 
-                        <div class="pt-5   px-5 space-y-10">
+                        <div class="space-y-10 px-5">
                             <div class="flex gap-3">
                                 <img src="/public/Images/Union.png" alt>
                                 <h2 class="text-3xl">The WPPOOL Index</h2>
                             </div>
 
-                            <div class="flex justify-between gap-5">
+                            <div class="grid grid-cols-1 lg:grid-cols-4 gap-5">
                                 <div
                                     class="well flex gap-3  justify-between">
-                                    <h4 class="text-[#FC714D] text-5xl">
+                                    <h4
+                                        class="text-[#FC714D] text-2xl lg:text-5xl">
                                         +66.2%</h4>
                                     <p
-                                        class="pr-2 border-r-4 text-lg border-[#FC714D]">WPPOOL
+                                        class="pr-2 border-r-4 text-sm lg:text-lg border-[#FC714D]">WPPOOL
                                         <br> Index</p>
                                 </div>
 
                                 <div class>
                                     <div
                                         class="well flex gap-3 justify-between border-none">
-                                        <h4 class="text-[#615DE3] text-5xl">
+                                        <h4
+                                            class="text-[#615DE3] text-2xl lg:text-5xl">
                                             +26.6%</h4>
                                         <p
-                                            class="pr-2 border-r-4 text-lg border-[#615DE3]">Goolge
+                                            class="pr-2 border-r-4 text-sm lg:text-lg border-[#615DE3]">Goolge
                                             <br> Index</p>
                                     </div>
                                 </div>
@@ -215,20 +236,22 @@
                                 <div class>
                                     <div
                                         class="well flex gap-3 justify-between border-none">
-                                        <h4 class="text-[#7CA63A] text-5xl">
+                                        <h4
+                                            class="text-[#7CA63A] text-2xl lg:text-5xll">
                                             +34.1%</h4>
                                         <p
-                                            class="pr-2 border-r-4 text-lg border-[#7CA63A]">Microsoft
+                                            class="pr-2 border-r-4 text-sm lg:text-lg border-[#7CA63A]">Microsoft
                                         </p>
                                     </div>
                                 </div>
                                 <div class="  ">
                                     <div
                                         class="well flex gap-3 justify-between border-none">
-                                        <h4 class="text-[#6F34A1] text-5xl">
+                                        <h4
+                                            class="text-[#6F34A1] text-2xl lg:text-5xl">
                                             +17% </h4>
                                         <p
-                                            class="pr-2 border-r-4 text-lg border-[#6F34A1]">Twitter
+                                            class="pr-2 border-r-4 text-sm lg:text-lg border-[#6F34A1]">Twitter
                                             <br> Index</p>
                                     </div>
                                 </div>
@@ -236,33 +259,34 @@
                             </div>
 
                             <div
-                                class="flex justify-between   gap-x-4">
-                                <div class="flex justify-between gap-x-4">
+                                class="flex flex-col lg:flex-row justify-between   gap-4">
+                                <div
+                                    class="flex flex-col lg:flex-row justify-between   gap-4">
                                     <div>
                                         <select
-                                            class="bg-[#2042B6] py-2 px-3 rounded-full font-poppins text-white pr-28"
+                                            class="bg-[#2042B6] py-2 px-3 rounded-full  text-white pr-28"
                                             name
                                             id>
-                                            <option>Sectors</option>
-                                            <option>Sectors</option>
-                                            <option>Sectors</option>
+                                            <option>Sectors 1</option>
+                                            <option>2</option>
+                                            <option>3</option>
                                         </select>
                                     </div>
                                     <div>
                                         <select
-                                            class="bg-[#2042B6]  py-2 px-3 rounded-full font-poppins text-white pr-20"
+                                            class="bg-[#2042B6]  py-2 px-3 rounded-full  text-white pr-20"
                                             name
                                             id>
                                             <option>Types of IPO</option>
-                                            <option>Types of IPO</option>
-                                            <option>Types of IPO</option>
+                                            <option>T1</option>
+                                            <option>T2</option>
                                         </select>
                                     </div>
                                 </div>
 
                                 <div>
                                     <ul
-                                        class="flex items-center text-[#2042B6] font-poppins bg-[#EFF3F6] rounded-full">
+                                        class="flex items-center text-[#2042B6]  bg-[#EFF3F6] rounded-full">
                                         <li class="px-4 py-2">1Y</li>
                                         <li class="px-4 py-2">YTD</li>
                                         <li
