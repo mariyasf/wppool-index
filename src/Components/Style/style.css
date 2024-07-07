@@ -2,6 +2,7 @@
 @import "./banner.css";
 @import "./index.css";
 @import "./feature.css";
+@import './stories_ideas.css';
 
 @import "./resposive.css";
 
@@ -47,4 +48,15 @@ option {
     max-width: 1440px;
     margin: auto;
     margin-top: 60px;
+}
+
+.shared-contant h1 {
+    font-size: 3rem;
+    line-height: 1;
+    padding: 10px 0;
+}
+
+.shared-contant p {
+    font-size: 1.25rem;
+    line-height: 1.75rem
 }
