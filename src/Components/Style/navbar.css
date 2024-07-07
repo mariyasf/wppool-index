@@ -1,0 +1,216 @@
+/* header */
+header {
+    position: relative;
+    min-height: calc(100vh);
+    overflow: hidden;
+    background: var(--primary-clr);
+}
+
+.all-container {
+    padding: 30px 20px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-white {
+    display: block;
+}
+
+.logo-black {
+    display: none;
+}
+
+.nav_sticky .nav-container {
+    position: fixed;
+    top: 0;
+    background: var(--base-clr);
+    box-shadow: 0px 36px 36px 0px rgba(0, 0, 0, 0.089);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    top: 0;
+    padding: 12px 20px;
+    
+    border-radius: 0.75rem;
+    z-index: 70px;
+
+}
+
+.nav-shadow {
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.nav-transition {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.navbar-btn-share {
+    height: 42px;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    z-index: 100;
+    padding: 0.5rem;
+}
+
+.navbar-btn-share:hover {
+    border-color: #afcd80;
+    background: #afcd80;
+}
+
+.navbar-btn-download {
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 0.5rem;
+    z-index: 100;
+    padding: 0.5rem
+}
+
+.navbar-btn-download:hover {
+    border-color: var(--primary-clr);
+    background: var(--primary-clr);
+    color: var(--white);
+}
+
+.navbar-drop-btn {
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    position: relative;
+    margin-left: 10px;
+    align-items: center;
+    z-index: 120;
+    cursor: pointer;
+}
+
+.info {
+    display: block;
+}
+
+.cross {
+    display: none;
+}
+
+
+body.active .navbar-drop-btn .info {
+    display: none;
+}
+
+body.active .navbar-drop-btn .cross {
+    display: block;
+}
+
+body.active .navbar-btn-share {
+    border-color: #afcd80;
+    background: #afcd80;
+}
+
+body.active .navbar-btn-share:hover {
+    border-color: #8ba95b;
+    background: #93ae66;
+}
+
+
+body.active .navbar-btn-download {
+    border-color: var(--primary-clr);
+    background: var(--primary-clr);
+    color: var(--white);
+}
+
+body.active .navbar-btn-download:hover {
+    color: var(--white);
+    border-color: #163496;
+    background: #163496;
+}
+
+.navbar-menu-iteams {
+    position: absolute;
+    right: -100%;
+    top: 30px;
+    width: 350px;
+    padding: 80px 5px 10px 30px;
+    background: var(--white);
+    border-radius: 18px;
+    z-index: 50;
+    overflow-y: auto;
+}
+
+body.active .navbar-menu-iteams {
+    right: 70px;
+}
+
+.navbar-menu-iteams li {
+    padding-bottom: 22px;
+}
+
+
+.navbar-menu-iteams li a {
+    display: block;
+    color: var(--black);
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.navbar-menu-iteams li a:hover {
+    color: var(--primary-clr);
+}
+
+.nav_sticky nav {
+    background: var(--black);
+}
+
+.nav_sticky .logo-white {
+    display: none;
+}
+
+.nav_sticky .logo-black {
+    display: block;
+}
+
+.nav_sticky .navbar-btn-share {
+    border-color: #afcd80;
+}
+
+.nav_sticky.active .navbar-btn-share {
+    border-color: #afcd80;
+    background: transparent;
+}
+
+
+.nav_sticky .navbar-btn-download {
+    border-color: var(--primary-clr);
+    color: var(--black);
+}
+
+.nav_sticky .navbar-btn-download:hover {
+    background: var(--primary-clr);
+    color: var(--white);
+}
+
+.nav_sticky.active .navbar-btn-download {
+    border-color: var(--primary-clr);
+    background-color: transparent;
+    color: var(--primary-clr);
+}
+
+
+.nav_sticky .nav-container {
+    left: 15px;
+    right: 15px;
+}

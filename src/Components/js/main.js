@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const btnMenu = document.getElementById('btn-menu');
     const dropdownMenu = document.getElementById('dropdown-menu');
     const btnClose = document.getElementById('btn-close');
-    const btnShear = document.getElementById('btn-shear');
-    const btnDownload = document.getElementById('btn-download');
+    const btnShear = document.getElementById('navbar-btn-share');
+    const btnDownload = document.getElementById('navbar-btn-download');
 
 
 
