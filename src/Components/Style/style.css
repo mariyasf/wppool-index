@@ -47,8 +47,9 @@ option {
 .cutome-window {
     max-width: 1440px;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 200px;
 }
+
 
 .shared-contant h1 {
     font-size: 3rem;
@@ -58,5 +59,6 @@ option {
 
 .shared-contant p {
     font-size: 1.25rem;
-    line-height: 1.75rem
+    line-height: 1.75rem;
+    width: 70%;
 }

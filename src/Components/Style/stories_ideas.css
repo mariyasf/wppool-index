@@ -9,8 +9,12 @@
 .stories-item {
     position: relative;
     background: var(--white);
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
+}
+
+.stories-item h4 {
+    color: var(--primary-clr);
 }
 
 .stories_img {
@@ -18,18 +22,7 @@
     width: 120px;
     height: 120px;
     margin-top: -70px;
-    box-shadow: 0px 16px 12px 0px rgba(0, 0, 0, 0.04);
     border-radius: 4px;
-}
-
-.stories_img .stories_user_img {
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
 }
 
 .stories_badge {
@@ -46,14 +39,16 @@
 }
 
 
+.stories_card {
+    padding-top: 50px;
+}
+
 .stories_read_btn {
     color: var(--white);
-    font-size: 14px;
-    font-weight: 400;
-    display: inline-block;
-    padding: 6px 10px;
+    padding: 10px;
     margin-top: 16px;
+    color: var(--white);
     background: var(--primary-clr);
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 10px;
 }
