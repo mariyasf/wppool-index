@@ -1,0 +1,32 @@
+.table-container {
+    width: calc(100% - 20px);
+    max-height: 450px;
+    overflow: auto;
+}
+
+.companies-table-list {
+    width: 100%;
+    padding: 30px;
+}
+
+.companies-table-list th {
+    top: 0;
+    position: sticky;
+    background: var(--white);
+}
+
+.companies-table-list th:first-child,
+.companies-table-list td:first-child {
+    text-align: left;
+}
+
+.companies-table-list th,
+.companies-table-list td {
+    padding: 12px 8px;
+    text-align: center;
+}
+
+.companies-table-list tbody tr:nth-of-type(even) {
+    background-color: var(--base-clr);
+    border-radius: 6px;
+}

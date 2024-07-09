@@ -6,6 +6,8 @@
         <title>WPPOOL</title>
         <link rel="icon" href="/public/icon.svg" type="image/svg" />
 
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="./output.css" rel="stylesheet">
         <link
             href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
@@ -305,6 +307,394 @@
                     </div>
                 </div>
             </section>
+            
+
+            <!-- Companies Start -->
+            <section class="cutome-window bg-[#FFFFFF] rounded-2xl">
+                <div class="companies-container">
+
+                    <div
+                        class="flex flex-col lg:flex-row 
+                         justify-between gap-5 p-12">
+                        <h1 class="text-4xl">All Companies</h1>
+
+                        <div
+                            class="max-w-[500px] w-1/2 flex gap-5 bg-[#F3F3F3]
+                             border border-[#dadada] rounded-xl p-3">
+                            <button type="submit"><i
+                                    class="fa fa-search"></i></button>
+                            <input
+                                class="border-none outline-none text-xl bg-transparent"
+                                type="text" placeholder="Search Companies">
+                        </div>
+                    </div>
+
+                    <div class="table-container">
+                        <table class="companies-table-list">
+                            <thead>
+                                <th>Company</th>
+                                <th>
+                                    <select>
+                                        <option>Ticker</option>
+                                        <option>AFRM</option>
+                                        <option>ALKT</option>
+                                        <option>AVDX</option>
+                                        <option>BKKT</option>
+                                        <option>VIRT</option>
+                                    </select>
+                                </th>
+                                <th>Vertical</th>
+                                <th>Price</th>
+                                <th>Market Cap ($B)</th>
+                                <th>Revenue Growth</th>
+                                <th>Gross Margin</th>
+                                <th>EV/Revenue</th>
+                                <th>YTD Performance</th>
+
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Adyen</td>
+                                    <td>AFRM</td>
+                                    <td>Payments</td>
+                                    <td>$17.15</td>
+                                    <td>$50.5</td>
+                                    <td>49.0%</td>
+                                    <td>15.8%</td>
+                                    <td>6.3</td>
+                                    <td>24.3%</td>
+                                </tr>
+                                <tr>
+                                    <td>Affirm</td>
+                                    <td>AFRM</td>
+                                    <td>Lending</td>
+                                    <td>$16.12</td>
+                                    <td>$4.7</td>
+                                    <td>32.0%</td>
+                                    <td>48.7%</td>
+                                    <td>4.9</td>
+                                    <td>77.1%</td>
+                                </tr>
+                                <tr>
+                                    <td>Alkami Technology</td>
+                                    <td>ALKT</td>
+                                    <td>B2B SaaS</td>
+                                    <td>$16.27</td>
+                                    <td>$1.5</td>
+                                    <td>34.0%</td>
+                                    <td>53.0%</td>
+                                    <td>7.0</td>
+                                    <td>10.0%</td>
+                                </tr>
+                                <tr>
+                                    <td>AvidXchange</td>
+                                    <td>AVDX</td>
+                                    <td>Payments</td>
+                                    <td>$10.21</td>
+                                    <td>$2.0</td>
+                                    <td>27.0%</td>
+                                    <td>61.5%</td>
+                                    <td>6.0</td>
+                                    <td>10.5%</td>
+                                </tr>
+                                <tr>
+                                    <td>Bakkt Holdings</td>
+                                    <td>BKKT</td>
+                                    <td>Wealth</td>
+                                    <td>$1.32</td>
+                                    <td>$0.1</td>
+                                    <td>38%</td>
+                                    <td>--</td>
+                                    <td>0.4</td>
+                                    <td>13.8%</td>
+                                </tr>
+                                <tr>
+                                    <td>Adyen</td>
+                                    <td>AFRM</td>
+                                    <td>Payments</td>
+                                    <td>$17.15</td>
+                                    <td>$50.5</td>
+                                    <td>49.0%</td>
+                                    <td>15.8%</td>
+                                    <td>6.3</td>
+                                    <td>24.3%</td>
+                                </tr>
+                                <tr>
+                                    <td>Affirm</td>
+                                    <td>AFRM</td>
+                                    <td>Lending</td>
+                                    <td>$16.12</td>
+                                    <td>$4.7</td>
+                                    <td>32.0%</td>
+                                    <td>48.7%</td>
+                                    <td>4.9</td>
+                                    <td>77.1%</td>
+                                </tr>
+                                <tr>
+                                    <td>Alkami Technology</td>
+                                    <td>ALKT</td>
+                                    <td>B2B SaaS</td>
+                                    <td>$16.27</td>
+                                    <td>$1.5</td>
+                                    <td>34.0%</td>
+                                    <td>53.0%</td>
+                                    <td>7.0</td>
+                                    <td>10.0%</td>
+                                </tr>
+                                <tr>
+                                    <td>AvidXchange</td>
+                                    <td>AVDX</td>
+                                    <td>Payments</td>
+                                    <td>$10.21</td>
+                                    <td>$2.0</td>
+                                    <td>27.0%</td>
+                                    <td>61.5%</td>
+                                    <td>6.0</td>
+                                    <td>10.5%</td>
+                                </tr>
+                                <tr>
+                                    <td>Bakkt Holdings</td>
+                                    <td>BKKT</td>
+                                    <td>Wealth</td>
+                                    <td>$1.32</td>
+                                    <td>$0.1</td>
+                                    <td>38%</td>
+                                    <td>--</td>
+                                    <td>0.4</td>
+                                    <td>13.8%</td>
+                                </tr> <tr>
+                                    <td>Adyen</td>
+                                    <td>AFRM</td>
+                                    <td>Payments</td>
+                                    <td>$17.15</td>
+                                    <td>$50.5</td>
+                                    <td>49.0%</td>
+                                    <td>15.8%</td>
+                                    <td>6.3</td>
+                                    <td>24.3%</td>
+                                </tr>
+                                <tr>
+                                    <td>Affirm</td>
+                                    <td>AFRM</td>
+                                    <td>Lending</td>
+                                    <td>$16.12</td>
+                                    <td>$4.7</td>
+                                    <td>32.0%</td>
+                                    <td>48.7%</td>
+                                    <td>4.9</td>
+                                    <td>77.1%</td>
+                                </tr>
+                                <tr>
+                                    <td>Alkami Technology</td>
+                                    <td>ALKT</td>
+                                    <td>B2B SaaS</td>
+                                    <td>$16.27</td>
+                                    <td>$1.5</td>
+                                    <td>34.0%</td>
+                                    <td>53.0%</td>
+                                    <td>7.0</td>
+                                    <td>10.0%</td>
+                                </tr>
+                                <tr>
+                                    <td>AvidXchange</td>
+                                    <td>AVDX</td>
+                                    <td>Payments</td>
+                                    <td>$10.21</td>
+                                    <td>$2.0</td>
+                                    <td>27.0%</td>
+                                    <td>61.5%</td>
+                                    <td>6.0</td>
+                                    <td>10.5%</td>
+                                </tr>
+                                <tr>
+                                    <td>Bakkt Holdings</td>
+                                    <td>BKKT</td>
+                                    <td>Wealth</td>
+                                    <td>$1.32</td>
+                                    <td>$0.1</td>
+                                    <td>38%</td>
+                                    <td>--</td>
+                                    <td>0.4</td>
+                                    <td>13.8%</td>
+                                </tr> <tr>
+                                    <td>Adyen</td>
+                                    <td>AFRM</td>
+                                    <td>Payments</td>
+                                    <td>$17.15</td>
+                                    <td>$50.5</td>
+                                    <td>49.0%</td>
+                                    <td>15.8%</td>
+                                    <td>6.3</td>
+                                    <td>24.3%</td>
+                                </tr>
+                                <tr>
+                                    <td>Affirm</td>
+                                    <td>AFRM</td>
+                                    <td>Lending</td>
+                                    <td>$16.12</td>
+                                    <td>$4.7</td>
+                                    <td>32.0%</td>
+                                    <td>48.7%</td>
+                                    <td>4.9</td>
+                                    <td>77.1%</td>
+                                </tr>
+                                <tr>
+                                    <td>Alkami Technology</td>
+                                    <td>ALKT</td>
+                                    <td>B2B SaaS</td>
+                                    <td>$16.27</td>
+                                    <td>$1.5</td>
+                                    <td>34.0%</td>
+                                    <td>53.0%</td>
+                                    <td>7.0</td>
+                                    <td>10.0%</td>
+                                </tr>
+                                <tr>
+                                    <td>AvidXchange</td>
+                                    <td>AVDX</td>
+                                    <td>Payments</td>
+                                    <td>$10.21</td>
+                                    <td>$2.0</td>
+                                    <td>27.0%</td>
+                                    <td>61.5%</td>
+                                    <td>6.0</td>
+                                    <td>10.5%</td>
+                                </tr>
+                                <tr>
+                                    <td>Bakkt Holdings</td>
+                                    <td>BKKT</td>
+                                    <td>Wealth</td>
+                                    <td>$1.32</td>
+                                    <td>$0.1</td>
+                                    <td>38%</td>
+                                    <td>--</td>
+                                    <td>0.4</td>
+                                    <td>13.8%</td>
+                                </tr> <tr>
+                                    <td>Adyen</td>
+                                    <td>AFRM</td>
+                                    <td>Payments</td>
+                                    <td>$17.15</td>
+                                    <td>$50.5</td>
+                                    <td>49.0%</td>
+                                    <td>15.8%</td>
+                                    <td>6.3</td>
+                                    <td>24.3%</td>
+                                </tr>
+                                <tr>
+                                    <td>Affirm</td>
+                                    <td>AFRM</td>
+                                    <td>Lending</td>
+                                    <td>$16.12</td>
+                                    <td>$4.7</td>
+                                    <td>32.0%</td>
+                                    <td>48.7%</td>
+                                    <td>4.9</td>
+                                    <td>77.1%</td>
+                                </tr>
+                                <tr>
+                                    <td>Alkami Technology</td>
+                                    <td>ALKT</td>
+                                    <td>B2B SaaS</td>
+                                    <td>$16.27</td>
+                                    <td>$1.5</td>
+                                    <td>34.0%</td>
+                                    <td>53.0%</td>
+                                    <td>7.0</td>
+                                    <td>10.0%</td>
+                                </tr>
+                                <tr>
+                                    <td>AvidXchange</td>
+                                    <td>AVDX</td>
+                                    <td>Payments</td>
+                                    <td>$10.21</td>
+                                    <td>$2.0</td>
+                                    <td>27.0%</td>
+                                    <td>61.5%</td>
+                                    <td>6.0</td>
+                                    <td>10.5%</td>
+                                </tr>
+                                <tr>
+                                    <td>Bakkt Holdings</td>
+                                    <td>BKKT</td>
+                                    <td>Wealth</td>
+                                    <td>$1.32</td>
+                                    <td>$0.1</td>
+                                    <td>38%</td>
+                                    <td>--</td>
+                                    <td>0.4</td>
+                                    <td>13.8%</td>
+                                </tr> <tr>
+                                    <td>Adyen</td>
+                                    <td>AFRM</td>
+                                    <td>Payments</td>
+                                    <td>$17.15</td>
+                                    <td>$50.5</td>
+                                    <td>49.0%</td>
+                                    <td>15.8%</td>
+                                    <td>6.3</td>
+                                    <td>24.3%</td>
+                                </tr>
+                                <tr>
+                                    <td>Affirm</td>
+                                    <td>AFRM</td>
+                                    <td>Lending</td>
+                                    <td>$16.12</td>
+                                    <td>$4.7</td>
+                                    <td>32.0%</td>
+                                    <td>48.7%</td>
+                                    <td>4.9</td>
+                                    <td>77.1%</td>
+                                </tr>
+                                <tr>
+                                    <td>Alkami Technology</td>
+                                    <td>ALKT</td>
+                                    <td>B2B SaaS</td>
+                                    <td>$16.27</td>
+                                    <td>$1.5</td>
+                                    <td>34.0%</td>
+                                    <td>53.0%</td>
+                                    <td>7.0</td>
+                                    <td>10.0%</td>
+                                </tr>
+                                <tr>
+                                    <td>AvidXchange</td>
+                                    <td>AVDX</td>
+                                    <td>Payments</td>
+                                    <td>$10.21</td>
+                                    <td>$2.0</td>
+                                    <td>27.0%</td>
+                                    <td>61.5%</td>
+                                    <td>6.0</td>
+                                    <td>10.5%</td>
+                                </tr>
+                                <tr>
+                                    <td>Bakkt Holdings</td>
+                                    <td>BKKT</td>
+                                    <td>Wealth</td>
+                                    <td>$1.32</td>
+                                    <td>$0.1</td>
+                                    <td>38%</td>
+                                    <td>--</td>
+                                    <td>0.4</td>
+                                    <td>13.8%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="companies_btns">
+                        <button type="button" class="download_btn">Download
+                            ‘All
+                            Companies’ Data</button>
+                        <button type="button" class="view_btn">View
+                            Methodology</button>
+                    </div>
+                </div>
+            </section>
 
             <!-- Future -->
             <section class="cutome-window">
@@ -316,7 +706,8 @@
                             consectetur adipiscing
                             elit.
                             Nunc vulputate libero et velit interdum, ac
-                            aliquet odio mattis. Class aptent taciti sociosqu ad
+                            aliquet odio mattis. Class aptent taciti
+                            sociosqu ad
                             litora torquent per conubia nostra, per
                             inceptos himenaeos. </p>
                     </div>
@@ -380,7 +771,8 @@
                                 adipisicing elit. Maxime mollitia.
                             </p>
 
-                            <button type="button" class="stories_read_btn">Read
+                            <button type="button"
+                                class="stories_read_btn">Read
                                 More</button>
                         </div>
 
@@ -392,7 +784,8 @@
                             </div>
                             <h4>By: Nayem Khan</h4>
                             <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <button type="button" class="stories_read_btn">Read
+                            <button type="button"
+                                class="stories_read_btn">Read
                                 More</button>
                         </div>
                         <div class="stories-item">
@@ -405,7 +798,8 @@
                             <p>Lorem ipsum dolor sit amet consectetur
                                 adipisicing
                                 elit. Maxime mollitia.</p>
-                            <button type="button" class="stories_read_btn">Read
+                            <button type="button"
+                                class="stories_read_btn">Read
                                 More</button>
                         </div>
 
@@ -417,7 +811,8 @@
                             </div>
                             <h4>By: Nayem Khan</h4>
                             <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <button type="button" class="stories_read_btn">Read
+                            <button type="button"
+                                class="stories_read_btn">Read
                                 More</button>
                         </div>
                         <div class="stories-item">
@@ -430,7 +825,8 @@
                             <p>Lorem ipsum dolor sit amet consectetur
                                 adipisicing
                                 elit. Maxime mollitia.</p>
-                            <button type="button" class="stories_read_btn">Read
+                            <button type="button"
+                                class="stories_read_btn">Read
                                 More</button>
                         </div>
 
@@ -442,7 +838,8 @@
                             </div>
                             <h4>By: Nayem Khan</h4>
                             <p>Lorem ipsum dolor sit amet consectetur</p>
-                            <button type="button" class="stories_read_btn">Read
+                            <button type="button"
+                                class="stories_read_btn">Read
                                 More</button>
                         </div>
 
@@ -482,6 +879,7 @@
                 </div>
             </section>
 
+            <!-- Protfolio -->
             <section class="cutome-window">
                 <div>
                     <div class="portfolio_head">
