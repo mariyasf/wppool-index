@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--primary-font);
 }
 
-p, span, option {
+p, span, option, button {
     font-family: var(--secondary-font);
     font-size: medium;
 }
