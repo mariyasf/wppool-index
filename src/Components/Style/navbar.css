@@ -1,20 +1,12 @@
 /* header */
 
-header, main {
-    padding: 20px;
-
-}
-
-.header {
-    background: var(--primary-clr);
-}
 
 .header-section {
     position: relative;
     min-height: calc(100vh);
     overflow: hidden;
     padding: 10px 25px;
-
+    background: var(--primary-clr);
 }
 
 .logo-white, .info-white, .share-white {
@@ -143,7 +135,7 @@ body.active .navbar-btn-download:hover {
     border-radius: 18px;
     z-index: 50;
     margin-right: 30px;
-    /* overflow-y: auto; */
+    overflow: auto;
 }
 
 
