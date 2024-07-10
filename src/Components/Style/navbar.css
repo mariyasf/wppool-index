@@ -1,15 +1,13 @@
 /* header */
 header {
-    position: relative;
-    min-height: calc(100vh);
-    overflow: hidden;
     background: var(--primary-clr);
 }
 
-.container {
-    padding: 30px 0;
-    max-width: 1440px;
-    margin: auto;
+.header-section {
+    position: relative;
+    min-height: calc(100vh);
+    overflow: hidden;
+    padding: 10px 50px;
 }
 
 .logo-white, .info-white, .share-white {
@@ -22,34 +20,24 @@ header {
 
 .nav_sticky .nav-container {
     position: fixed;
-    top: 0;
+    /* top: 0; */
+    left: 50px;
+    right: 50px;
+    margin: 0;
     background: var(--base-clr);
-    box-shadow: 0px 36px 36px 0px rgba(0, 0, 0, 0.089);
+    /* box-shadow: 0px 36px 36px 0px rgba(0, 0, 0, 0.089); */
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
-    margin: auto;
-    top: 0;
     padding: 12px 20px;
+    /* margin: 0 50px; */
     border-radius: 0.75rem;
     z-index: 70 !important;
-
 }
 
-.nav-shadow {
-    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.nav-transition {
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-}
 
 .navbar-btn-share {
     height: 42px;
@@ -58,24 +46,27 @@ header {
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    border: 2px solid var(--white);
+    border: 1px solid var(--white);
     border-radius: 50%;
     z-index: 100;
     padding: 0.5rem;
+
 }
+
 
 .navbar-btn-share:hover {
     border-color: #afcd80;
     background: #afcd80;
+    color: white;
 }
 
 .navbar-btn-download {
     background-color: transparent;
     color: var(--white);
-    border: 2px solid var(--white);
+    border: 1px solid var(--white);
     border-radius: 0.5rem;
     z-index: 100;
-    padding: 0.5rem
+    padding: 0.5rem 20px;
 }
 
 .navbar-btn-download:hover {
@@ -86,13 +77,13 @@ header {
 
 .navbar-drop-btn {
     display: inline-block;
-    width: 24px;
-    height: 20px;
     position: relative;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 12px;
     align-items: center;
-    z-index: 120;
+    z-index: 120 !important;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .info {
@@ -138,17 +129,19 @@ body.active .navbar-btn-download:hover {
 .navbar-menu-iteams {
     position: absolute;
     right: -100%;
-    top: 25px;
-    width: 338px;
-    padding: 80px 5px 10px 30px;
+    top: 3px;
+    width: 380px;
+    padding: 80px 5px 10px 30px !important;
     background: var(--white);
     border-radius: 18px;
     z-index: 50;
-    overflow-y: auto;
+    margin-right: 50px;
+    /* overflow-y: auto; */
 }
 
+
 body.active .navbar-menu-iteams {
-    right: 50px;
+    right: 0px;
 }
 
 .navbar-menu-iteams li {
@@ -167,6 +160,11 @@ body.active .navbar-menu-iteams {
     color: var(--primary-clr);
 }
 
+.navbar-drop-btn {
+    width: 24px;
+    height: 24px;
+}
+
 .nav_sticky .logo-white,
 .nav_sticky .info-white,
 .nav_sticky .share-white {
@@ -177,6 +175,10 @@ body.active .navbar-menu-iteams {
 .nav_sticky .info-black,
 .nav_sticky .share-black {
     display: block;
+}
+
+.nav_sticky .share-black {
+    color: #afcd80;
 }
 
 .nav_sticky .navbar-btn-share {
@@ -206,12 +208,7 @@ body.active .navbar-menu-iteams {
 }
 
 
-.nav_sticky .nav-container {
-    left: 25px;
-    right: 25px;
-}
 
-.nav_sticky.active .navbar-menu-iteams {
-    right: 20px;
-    top: 3px;
+.nav_sticky .navbar-menu-iteams {
+    margin-right: 0;
 }

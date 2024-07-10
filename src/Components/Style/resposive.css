@@ -1,15 +1,14 @@
 /* Media Query */
 
-@media screen and (min-width: 1240px) {
+@media screen and (max-width: 1024px) {
     .cutome-window {
         padding: 0 30px;
     }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cutome-window {
-        margin-top: 150px;
+        margin-top: 120px;
         padding: 0 30px;
     }
 
@@ -22,14 +21,14 @@
         flex-direction: row;
     }
 
-    .banner-contant {
+    .banner-content {
         width: 100% !important;
         position: relative;
         z-index: 9 !important;
         padding: 200px 10px 0;
     }
 
-    .counter-contant {
+    .counter-content {
         bottom: 30%;
         position: absolute;
         display: grid;
@@ -37,6 +36,19 @@
         row-gap: 30px;
         column-gap: 10px;
         padding: 0 20px;
+    }
+
+    .index-container {
+        display: block;
+    }
+
+    .sidenav {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .chart-container {
+        height: 400px;
     }
 
     .feature-items {
@@ -78,11 +90,20 @@
         flex-direction: row;
     }
 
-    .banner-contant {
+    .banner-content {
         display: none;
     }
 
-    .counter-contant {
+    .index-container {
+        display: block;
+    }
+
+    .chart-container {
+        height: 400px;
+        width: 100%;
+    }
+
+    .counter-content {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
         row-gap: 30px;
