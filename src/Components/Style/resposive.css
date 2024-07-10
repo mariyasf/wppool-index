@@ -196,9 +196,12 @@
         max-width: 700px;
     }
 
-
+    .banner-content p {
+        width: 340px;
+    }
 
     .counter-content {
+        bottom: 10%;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
         row-gap: 30px;
