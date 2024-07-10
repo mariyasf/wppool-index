@@ -23,25 +23,32 @@
     }
 
     .banner-content {
-        width: 100% !important;
-        position: relative;
-        z-index: 9 !important;
-        padding: 200px 10px 0;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -50px;
+        left: 50%;
+    }
+
+    .banner-bg {
+        background-image: none;
     }
 
     .counter-content {
         bottom: 30%;
-        position: absolute;
         display: grid;
         grid-template-columns: repeat(4, minmax(120px, 1fr));
         row-gap: 30px;
         column-gap: 10px;
-        padding: 0 20px;
+        padding: 20px;
     }
 
+
+    .banner-container,
     .index-container {
         display: block;
     }
+
+
 
     .sidenav {
         width: 100%;
@@ -103,9 +110,26 @@
     }
 
     .banner-content {
-        display: none;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -70px;
+        left: 50%;
     }
 
+    .counter-content {
+        bottom: 30%;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(120px, 1fr));
+        row-gap: 30px;
+        column-gap: 10px;
+        padding: 20px;
+    }
+
+    .banner-bg {
+        background-image: none;
+    }
+
+    .banner-container,
     .index-container {
         display: block;
     }
