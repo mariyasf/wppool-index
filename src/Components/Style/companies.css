@@ -6,21 +6,18 @@
     scrollbar-color: #2042B6 #E5F1F3;
     scrollbar-width: thin;
     scrollbar-gutter: stable;
-    
+
 }
-
-
 
 .companies-table-list {
     width: 100%;
     padding: 30px;
 }
 
-.companies-table-list th {
-    top: 0;
-    position: sticky;
-    background: var(--white);
 
+.companies-table-list th:not(:first-child) {
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .companies-table-list th:first-child,
