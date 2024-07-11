@@ -2,7 +2,7 @@
     background: #e6e6e6;
     padding: 80px 0;
     margin-top: 60px;
-    max-width: calc(100vw - ((100vw - 1180px) / 2));
+    max-width: calc(100vw - ((100vw - 1200px) / 2));
     border-top-right-radius: 12px;
     display: flex;
     justify-content: end;
@@ -11,8 +11,7 @@
 
 
 .footer-container {
-    width: calc(100vw - (100vw - 1180px));
-    /* width: 1440px; */
+    width: calc(100vw - (100vw - 1200px));
     margin: auto;
     font-size: 20px;
 }
