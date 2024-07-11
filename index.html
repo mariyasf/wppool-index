@@ -14,7 +14,8 @@
             rel="stylesheet" type="text/css" />
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="/src/Components/Style/style.css">
-
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     </head>
     <body>
         <!-- Header Part -->
@@ -341,7 +342,7 @@
                         </div>
                     </div>
 
-                    <div class="table-container">
+                    <div class="table-container" id="table">
                         <table class="companies-table-list">
                             <thead>
                                 <th>Company</th>
@@ -695,6 +696,7 @@
                             </tbody>
                         </table>
                     </div>
+
                 </div>
 
                 <div class="mx-auto pb-10">
@@ -759,6 +761,93 @@
                     </div>
                 </div>
 
+            </section>
+
+            <!-- State of USA Section -->
+            <section class="cutome-window">
+                <div class="slider-container">
+                    <div class="space-y-5 pb-5">
+                        <h2 class="text-2xl lg:text-[42px]">State of USA</h2>
+                        <select name id
+                            class="px-5 rounded-full text-white bg-[#2042B6] text-3xl ">
+                            <option value>2024</option>
+                            <option value>2023</option>
+                            <option value>202</option>
+                            <option value>2021</option>
+                            <option value>2020</option>
+                            <option value>.......</option>
+                        </select>
+                        <p class="text-xl">
+                            Click through the slides or download the report to
+                            view
+                            natively on your
+                            device.</p>
+                    </div>
+
+                    <div class="slider">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="/public/Images/slide/1.png" alt>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/public/Images/slide/2.png" alt>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/public/Images/slide/3.png" alt>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/public/Images/slide/1.png" alt>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/public/Images/slide/2.png" alt>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="/public/Images/slide/3.png" alt>
+                                </div>
+                            </div>
+                            <div
+                                class="md:flex items-center justify-between pt-5">
+                                <div class="flex items-center gap-5">
+                                    <div class="flex items-center gap-5">
+                                        <div class="swiper-button shadow-lg">
+                                            <button
+                                                class>
+                                                <img
+                                                    src="/public/Images/icons/left_arrow.svg"
+                                                    alt>
+                                            </button>
+                                        </div>
+                                        <div class="swiper-button shadow-lg">
+                                            <button>
+                                                <img
+                                                    src="/public/Images/icons/right_arrow.svg"
+                                                    alt>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center gap-5">
+                                        <p>Pages</p>
+                                        <select name id
+                                            class="bg-white p-2 rounded-full shadow-lg">
+                                            <option value>1 and 2</option>
+                                            <option value>3 and 4</option>
+                                            <option value>5 and 6</option>
+                                        </select>
+                                        <p>of 37</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button
+                                        class="bg-[#2042B6] p-2 px-3 text-white rounded-full">Download
+                                        the 2023 Report</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
             </section>
 
             <!-- Stories & Ideas -->
@@ -1106,12 +1195,15 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
         <!-- custome JS -->
         <script src="/src/Components/js/main.js"></script>
         <script src="/src/Components/js/chart.js"></script>
         <script src="/src/Components/js/navbar.js"></script>
         <script src="./src/Components/js/counter.js"></script>
+        <script src="./src/Components/js/slider.js"></script>
 
     </body>
 </html>
