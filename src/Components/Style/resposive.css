@@ -192,12 +192,14 @@
 
     .banner-container {
         flex-direction: row;
+        gap: 20px;
+
     }
 
     .banner-content {
         flex-direction: column;
         align-items: center;
-        margin-top: -120px;
+        margin-top: -150px;
         left: 50%;
     }
 
@@ -221,12 +223,13 @@
     }
 
     .counter-content {
-        bottom: 10%;
+        bottom: 0;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
         row-gap: 30px;
         column-gap: 10px;
-        padding: 0 10px;
+        padding: 10px;
+        margin-top: 20px;
     }
 
     .sidenav {
