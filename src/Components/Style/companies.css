@@ -1,8 +1,14 @@
 .table-container {
     width: calc(100% - 20px);
     max-height: 450px;
+    overflow: scroll;
     overflow: auto;
+    scrollbar-color: #2042B6 #E5F1F3;
+    scrollbar-width: thin;
+    scrollbar-gutter: stable;
+    
 }
+
 
 
 .companies-table-list {
@@ -14,6 +20,7 @@
     top: 0;
     position: sticky;
     background: var(--white);
+
 }
 
 .companies-table-list th:first-child,
