@@ -1,3 +1,35 @@
+.cutome-window {
+    max-width: 1240px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.components-transition {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.shared-content h1 {
+    font-size: 3rem;
+    line-height: 1;
+    padding: 10px 0;
+}
+
+.shared-content p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    width: 70%;
+}
+
+.transition {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+
 /* Media Query */
 
 @media screen and (max-width: 1024px) {
@@ -24,12 +56,13 @@
     }
 
     .shared-content h1 {
-        font-size: 24px;
-        font-weight: 200;
+        font-size: 42px;
+        font-weight: 500;
     }
 
     .shared-content p {
-        font-size: 12px
+        font-size: 12px;
+        width: 100%;
     }
 
     .navbar-btn-share,
@@ -241,9 +274,6 @@
     .footer-middle-items {
         padding-left: 0;
     }
- 
-
-
 
     .footer-middle-items ul {
         display: flex;
