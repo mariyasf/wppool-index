@@ -186,11 +186,8 @@
     }
 
     .navbar-menu-iteams {
-        border: 2px solid red;
         width: calc(100% - 25px);
         right: calc(-100% - 25px);
-        /* margin-right: 0; */
-        /* padding: 60px 30px 30px !important; */
     }
 
     .banner-container {
