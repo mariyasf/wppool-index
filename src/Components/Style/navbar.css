@@ -4,6 +4,7 @@
     overflow: hidden;
     padding: 10px 50px;
     background: var(--primary-clr);
+    border: 2px solid red;
 }
 
 .logo-white, .info-white, .share-white {
@@ -131,6 +132,7 @@ body.active .navbar-btn-download:hover {
     z-index: 50;
     margin-right: 30px;
     overflow: auto;
+    
 }
 
 

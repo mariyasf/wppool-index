@@ -26,6 +26,10 @@
     font-weight: 700;
 }
 
+.footer-middle-items ul {
+    display: block;
+}
+
 .footer-middle-items ul li {
     margin: 15px 0;
 }
