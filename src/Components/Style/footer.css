@@ -2,18 +2,18 @@
     background: #e6e6e6;
     padding: 80px 0;
     margin-top: 60px;
-    max-width: calc(100vw - ((100vw - 1200px) / 2));
-    border-top-right-radius: 12px;
+    max-width: calc(100vw - ((100vw - 1220px) / 2));
+    border-top-right-radius: 15px;
     display: flex;
     justify-content: end;
-
 }
 
 
 .footer-container {
-    width: calc(100vw - (100vw - 1200px));
-    margin: auto;
+    width: calc(100vw - (100vw - 1250px));
     font-size: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
 }
 
 .footer-middle-items {
