@@ -47,7 +47,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cutome-window {
         margin-top: 120px;
-        padding: 0 12px;
+        padding: 0 50px;
     }
 
     .shared-content h1 {

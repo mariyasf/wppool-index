@@ -1,4 +1,3 @@
-
 .banner-bg {
     background-image:
         url("/public/Images/rectangle.png"),
@@ -41,4 +40,8 @@
     flex-direction: column;
     row-gap: 30px;
     column-gap: 10px;
+}
+
+.nav_sticky .banner-content {
+    display: none;
 }
